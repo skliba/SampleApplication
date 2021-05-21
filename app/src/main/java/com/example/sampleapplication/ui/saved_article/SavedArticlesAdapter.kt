@@ -8,8 +8,9 @@ import com.example.sampleapplication.R
 import com.example.sampleapplication.data.model.Article
 import kotlinx.android.synthetic.main.item_saved_article.view.*
 
-class SavedArticlesAdapter(private val articles: List<Article>) :
-    RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class SavedArticlesAdapter(
+    private val articles: List<Article>
+) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     init {
         setHasStableIds(true)
