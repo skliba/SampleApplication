@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleStyle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.115</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/design_default_color_primary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DescriptionStyle">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="android:elevation">12dp</item>
+    </style>
+</resources>
